@@ -6,6 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import com.google.firebase.messaging.FirebaseMessaging
 import com.yuliakazachok.pushnotifications.ui.theme.PushNotificationsTheme
+import com.yuliakazachok.pushnotifications.util.LOG_TAG
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,7 +18,7 @@ class MainActivity : ComponentActivity() {
             }
 
             val token = task.result
-            Log.d("firebase", "token = $token")
+            Log.d(LOG_TAG, "token = $token")
         }
 
         setContent {
