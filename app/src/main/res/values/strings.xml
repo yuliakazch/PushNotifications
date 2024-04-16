@@ -1,3 +1,6 @@
 <resources>
 	<string name="app_name">PushNotifications</string>
+	<string name="topic_interesting">interesting</string>
+	<string name="button_text_subscribe_to_interesting">Subscribe to interesting topic</string>
+	<string name="button_text_unsubscribe_to_interesting">Unsubscribe to interesting topic</string>
 </resources>
